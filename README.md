@@ -19,7 +19,7 @@ migrate zhu_linux
 ```
 ## Mac OS
 ```
-migrate zhu_os
+migrate zhu_macos
 ```
 ## Windows
 ```
