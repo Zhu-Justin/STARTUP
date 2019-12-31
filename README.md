@@ -11,6 +11,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'
 echo ".zhu_config" >> .gitignore
 git clone --bare https://github.com/Zhu-Justin/.zhu_config.git $HOME/.zhu_config
 config checkout
+source ~/.profile
 ```
 # OS
 ## Linux
