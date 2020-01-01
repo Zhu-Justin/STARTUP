@@ -12,6 +12,7 @@ echo ".zhu_config" >> .gitignore
 git clone --bare https://github.com/Zhu-Justin/.zhu_config.git $HOME/.zhu_config
 config checkout
 config config --local status.showUntrackedFiles no
+config push --set-upstream origin master
 source ~/.profile
 ```
 # OS
