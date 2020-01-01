@@ -11,37 +11,38 @@ alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'
 echo ".zhu_config" >> .gitignore
 git clone --bare https://github.com/Zhu-Justin/.zhu_config.git $HOME/.zhu_config
 config checkout
+config config --local status.showUntrackedFiles no
 source ~/.profile
 ```
 # OS
 ## Linux
 ```
-migrate zhu_linux
+zhum linux
 ```
 ## Mac OS
 ```
-migrate zhu_macos
+zhum macos
 ```
 ## Windows
 ```
-migrate zhu_windows
+zhum windows
 ```
 # Shell
 ## Bash
 ```
-migrate zhu_bash
+zhum bash
 ```
 ## Zsh
 ```
-migrate zhu_zsh
+zhum zsh
 ```
 # Home
 Privacy
 ```
-migrate zhu_home
+zhum home
 ```
 # Work
 Public
 ```
-migrate zhu_work
+zhum work
 ```
