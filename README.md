@@ -47,3 +47,10 @@ Public
 ```
 zhum work
 ```
+# Applications
+```
+migrate vim
+migrate emacs
+migrate tmux
+migrate mutt
+```
