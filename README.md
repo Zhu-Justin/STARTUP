@@ -53,4 +53,5 @@ migrate vim
 migrate emacs
 migrate tmux
 migrate mutt
+migrate fzf
 ```
