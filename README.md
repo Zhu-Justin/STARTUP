@@ -1,3 +1,5 @@
+I have a particular setup for configuring my machine, with many dotfiles stored in private repositories. I plan to release a customized operating system with these dotfiles once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share.
+
 # Startup Code
 ```
 git init --bare $HOME/.zhu_config
