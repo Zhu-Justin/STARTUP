@@ -24,7 +24,7 @@ zhum linux
 ```
 ## Mac OS
 ```
-zhum macos
+zhum macos && mac
 ```
 ## Windows
 ```
