@@ -51,6 +51,8 @@ zhum work
 ```
 # Applications
 ```
+installapps
+installkb
 migrate vim
 migrate emacs
 migrate tmux
