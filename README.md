@@ -53,6 +53,7 @@ zhum work
 ```
 installapps
 installkb
+installdocs
 migrate vim
 migrate emacs
 migrate tmux
