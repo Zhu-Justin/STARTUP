@@ -60,4 +60,5 @@ migrate tmux
 migrate mutt
 migrate fzf
 migrate iterm
+migrate pdf
 ```
