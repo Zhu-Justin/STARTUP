@@ -9,6 +9,7 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'
 ```
 # Migrating
 ```
+ssh-keygen # link ssh keys to https://github.com/settings/keys
 alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'
 echo ".zhu_config" >> .gitignore
 git clone --bare git@github.com:Zhu-Justin/.zhu_config.git $HOME/.zhu_config
