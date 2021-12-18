@@ -40,6 +40,10 @@ zhum bash
 ```
 zhum zsh
 ```
+# File System
+```
+zhum file
+```
 # Home
 Privacy
 ```
