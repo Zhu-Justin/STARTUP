@@ -29,7 +29,7 @@ zhum macos && mac && zhum plist
 ```
 ## Windows
 ```
-zhum windows
+wsl && zhum windows
 ```
 # Shell
 ## Bash
