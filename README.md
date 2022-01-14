@@ -1,4 +1,8 @@
-I have a particular setup for my machine, with many configuration scripts stored in private repositories to try to make the architecture less monolithic and more secure. I plan to release a customized operating system with these dotfiles and scripts once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share.
+I have a particular setup for my machine, with many configuration scripts stored in private repositories.
+
+I plan to release a customized operating system with these dotfiles and scripts once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share.
+
+The only machine requirement for my startup scripts to work is that the machine is POSIX-compliant or has access to a POSIX-compliant kernel
 
 # Security First
 ```
@@ -7,7 +11,7 @@ ssh-keygen # link ssh keys to https://github.com/settings/keys for ssh protocol
 
 # Startup Code
 ```
-curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.sh | bash
+curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.sh | sh
 ```
 
 # Restart
@@ -15,7 +19,7 @@ curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.s
 git init --bare $HOME/.zhu_config
 alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
-echo "alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'" >> $HOME/.bashrc
+echo "alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME'" >> $HOME/.profile
 ```
 
 # OS
