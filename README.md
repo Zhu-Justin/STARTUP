@@ -1,8 +1,4 @@
-I have a particular setup for my machine, with many configuration scripts stored in private repositories.
-
-I plan to release a customized operating system with these dotfiles and scripts once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share.
-
-The only machine requirement for my startup scripts to work is that the machine is POSIX-compliant or has access to a POSIX-compliant kernel
+I have a particular setup for my machine, with many configuration scripts stored in private repositories. I plan to release a customized operating system once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share.
 
 # Security First
 ```
