@@ -63,4 +63,5 @@ migrate mutt
 migrate fzf
 migrate iterm
 migrate pdf
+migrate md
 ```
