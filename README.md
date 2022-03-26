@@ -51,6 +51,11 @@ Public
 ```
 zhum work
 ```
+# Hardware
+```
+installdir ram
+installdir cpu
+```
 # Applications
 ```
 installapps
