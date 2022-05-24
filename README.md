@@ -1,4 +1,4 @@
-I have a particular setup for my machine, with many configuration scripts stored in private repositories. I plan to release a customized operating system once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share!
+I have a particular setup for my machine, with many configuration scripts stored in private repositories that make it cross-compatible and less monolithic. I plan to release a customized operating system once I find time to do so. For now, if you would like to use my setup, please email me, and I'm happy to share!
 
 # Security First
 ```
