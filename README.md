@@ -58,7 +58,7 @@ installdir cpu
 ```
 # Applications
 ```
-gitconfig
+installgit
 installapps
 installkb
 installdocs
