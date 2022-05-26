@@ -15,6 +15,11 @@ curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.s
 curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/restart.sh | sh
 ```
 
+# Backup
+```
+backup
+```
+
 # OS
 ## Linux
 ```
