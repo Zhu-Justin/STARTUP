@@ -7,12 +7,12 @@ ssh-keygen # link ssh keys to https://github.com/settings/keys for ssh protocol
 
 # Startup Code
 ```
-curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.sh | sh
+curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/startup.sh | bash
 ```
 
 # Restart
 ```
-curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/restart.sh | sh
+curl -s -L https://raw.githubusercontent.com/Zhu-Justin/STARTUP/master/restart.sh | bash
 ```
 
 # Backup
