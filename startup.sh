@@ -1,10 +1,10 @@
 if [ -f ~/.profile ]; then
   rm -i ~/.profile
-if [ -f ~/.zhu_profile ]; then
+elif [ -f ~/.zhu_profile ]; then
   rm -i ~/.zhu_profile
-if [ -f ~/.gitignore ]; then
+elif [ -f ~/.gitignore ]; then
   rm -i ~/.gitignore
-if [ -d ~/.zhu_config ]; then
+elif [ -d ~/.zhu_config ]; then
   rm -i ~/.zhu_config
 else
   git clone --bare git@github.com:Zhu-Justin/.zhu_config.git $HOME/.zhu_config
