@@ -1,4 +1,4 @@
-if [ -f ~/.profile && -d ~/.zhu_config ]; then
+if [[ -f ~/.profile && -d ~/.zhu_config ]]; then
   rm -i ~/.profile
   rm -i ~/.zhu_config
 else
