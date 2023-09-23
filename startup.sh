@@ -7,8 +7,8 @@ else
   shopt -s expand_aliases;
   alias config='/usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME';
   echo ".zhu_config" >> .gitignore
-  config checkout
-  config config --local status.showUntrackedFiles no
-  config push --set-upstream origin master
+  /usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME checkout
+  /usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME config --local status.showUntrackedFiles no
+  /usr/bin/git --git-dir=$HOME/.zhu_config/ --work-tree=$HOME push --set-upstream origin master
   source ~/.profile
 fi
