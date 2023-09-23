@@ -1,5 +1,6 @@
-if [[ -f ~/.profile && -d ~/.zhu_config ]]; then
+if [ -f ~/.profile ]; then
   rm -i ~/.profile
+elif [ -d ~/.zhu_config ]; then
   rm -i ~/.zhu_config
 else
   shopt -s expand_aliases
