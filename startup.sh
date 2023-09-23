@@ -1,5 +1,7 @@
 if [ -f ~/.profile ]; then
   rm -i ~/.profile
+if [ -f ~/.zhu_profile ]; then
+  rm -i ~/.zhu_profile
 elif [ -d ~/.zhu_config ]; then
   rm -i ~/.zhu_config
 else
